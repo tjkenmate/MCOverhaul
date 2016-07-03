@@ -1,0 +1,16 @@
+[
+{
+  "modid": "ttmco",
+  "name": "Minecraft Overhaul",
+  "description": "A RPG Overhaul of various Minecraft Mechanics.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["TjKenMate AKA Tjeltigre","Blynd3"],
+  "credits": "Us, Forge, FML, MCP",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
