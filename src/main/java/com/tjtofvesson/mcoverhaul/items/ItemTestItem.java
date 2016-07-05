@@ -5,7 +5,10 @@ import java.util.Iterator;
 import java.util.List;
 
 import com.tjtofvesson.mcoverhaul.Reference;
+import com.tjtofvesson.mcoverhaul.utils.ChatUtils;
 
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.gui.FontRenderer;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
@@ -21,13 +24,14 @@ public class ItemTestItem extends Item {
 	public ItemTestItem() {
 		setUnlocalizedName(Reference.MCOItemsData.TESTITEM.getUnlocalizedName());
 		setRegistryName(Reference.MCOItemsData.TESTITEM.getRegistryName());
+		setCreativeTab(Reference.ttmcoTab);
 		this.maxStackSize = 1;
 	}
     
     @SideOnly(Side.CLIENT)
     public boolean onLeftClickEntity(ItemStack stack, final EntityPlayer player, final Entity entity){
     	super.onLeftClickEntity(stack, player, entity);
-    	player.addChatMessage(new ITextComponent(){
+    	ChatUtils.sendNoSpamMessages(414, new ITextComponent(){
 
 			@Override
 			public Iterator<ITextComponent> iterator() {
@@ -58,17 +62,17 @@ public class ItemTestItem extends Item {
 
 			@Override
 			public String getUnformattedComponentText() {
-				return "<"+player.getName()+"> Fugg yu, "+entity.getName();
+				return "This is a "+entity.getName();
 			}
 
 			@Override
 			public String getUnformattedText() {
-				return "<"+player.getName()+"> Fugg yu, "+entity.getName();
+				return "This is a "+entity.getName();
 			}
 
 			@Override
 			public String getFormattedText() {
-				return "<"+player.getName()+"> Fugg yu, "+entity.getName();
+				return "This is a "+entity.getName();
 			}
 
 			@Override

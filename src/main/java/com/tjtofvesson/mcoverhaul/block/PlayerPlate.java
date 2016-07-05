@@ -22,7 +22,9 @@ public class PlayerPlate extends BlockPressurePlate{
 		super(Material.ROCK, Sensitivity.MOBS);
 		setUnlocalizedName(Reference.MCOBlocksData.PlayerPlate.getUnlocalizedName());
 		setRegistryName(Reference.MCOBlocksData.PlayerPlate.getRegistryName());
-		slipperiness = -0.5f;
+		setCreativeTab(Reference.ttmcoTab);
+		setHardness(0.5f);
+		setHarvestLevel("pickaxe", 1);
 	}
 	
 	@Override

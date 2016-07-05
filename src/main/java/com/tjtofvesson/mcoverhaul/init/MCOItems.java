@@ -15,7 +15,6 @@ public class MCOItems {
 	public static void init()
 	{
 		testItem = new ItemTestItem();
-		testItem.setCreativeTab(Reference.ttmcoTab);
 	}
 	
 	public static void register()

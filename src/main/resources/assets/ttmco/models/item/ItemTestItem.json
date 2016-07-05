@@ -1,18 +1,6 @@
 {
     "parent": "builtin/generated",
     "textures": {
-        "layer0": "ttmco:items/ItemTestItem"
-    },
-    "display": {
-        "thirdperson": {
-            "rotation": [ -45, 0, 0 ],
-            "translation": [0, 1, -3 ],
-            "scale": [ 1, 0.55, 0.55 ]
-        },
-        "firstperson": {
-            "rotation": [ 45, -100, 25 ],
-            "translation": [5, 4, 2 ],
-            "scale": [ 0.3, 0.2, 0.1 ]
-        }
+        "layer0": "minecraft:items/porkchop_cooked"
     }
 }
