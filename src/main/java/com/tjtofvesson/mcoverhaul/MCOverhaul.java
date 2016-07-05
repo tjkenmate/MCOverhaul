@@ -3,6 +3,7 @@
  */
 package com.tjtofvesson.mcoverhaul;
 
+import com.tjtofvesson.mcoverhaul.init.MCOBlocks;
 import com.tjtofvesson.mcoverhaul.init.MCOItems;
 import com.tjtofvesson.mcoverhaul.proxy.CommonProxy;
 
@@ -35,7 +36,9 @@ public class MCOverhaul {
 		System.out.println("HAHAH PRE");
 		
 		MCOItems.init();
+		MCOBlocks.init();
 		MCOItems.register();
+		MCOBlocks.register();
 	}
 	
 	@EventHandler
