@@ -3,7 +3,7 @@
   "modid": "ttmco",
   "name": "Minecraft Overhaul",
   "description": "A mod for improving the Minecraft experience. :D",
-  "version": "0.2 Alpha",
+  "version": "0.2.1",
   "mcversion": "${mcversion}",
   "url": "https://github.com/GabrielTofvesson/MCOverhaul",
   "updateUrl": "",
