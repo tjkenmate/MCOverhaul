@@ -1,5 +1,8 @@
 package com.tjtofvesson.mcoverhaul;
 
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.init.Items;
+import net.minecraft.item.Item;
 import scala.reflect.internal.Trees.This;
 
 public class Reference {
@@ -11,6 +14,7 @@ public class Reference {
 	
 	public static final String CLIENT_PROXY_CLASS = "com.tjtofvesson.mcoverhaul.proxy.ClientProxy";
 	public static final String SERVER_PROXY_CLASS = "com.tjtofvesson.mcoverhaul.proxy.ServerProxy";
+	public static final CreativeTabs ttmcoTab = new CreativeTabs("ttmcoTab"){ @Override public Item getTabIconItem() { return Items.ACACIA_BOAT; } };
 	
 	public static enum MCOItemsData{
 		TESTITEM("testItem", "ItemTestItem");

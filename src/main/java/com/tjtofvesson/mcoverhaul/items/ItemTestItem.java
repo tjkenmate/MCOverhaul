@@ -20,19 +20,9 @@ public class ItemTestItem extends Item {
 	
 	public ItemTestItem() {
 		setUnlocalizedName(Reference.MCOItemsData.TESTITEM.getUnlocalizedName());
-		setRegistryName(Reference.MCOItemsData.TESTITEM.getRegistryName());	
-		this.setCreativeTab(CreativeTabs.COMBAT);
+		setRegistryName(Reference.MCOItemsData.TESTITEM.getRegistryName());
 		this.maxStackSize = 1;
 	}
-	
-	/**
-     * gets the CreativeTab this item is displayed on
-     */
-    @SideOnly(Side.CLIENT)
-    public CreativeTabs getCreativeTab()
-    {
-        return CreativeTabs.COMBAT;
-    }
     
     @SideOnly(Side.CLIENT)
     public boolean onLeftClickEntity(ItemStack stack, final EntityPlayer player, final Entity entity){

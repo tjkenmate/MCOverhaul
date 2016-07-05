@@ -1,5 +1,6 @@
 package com.tjtofvesson.mcoverhaul.init;
 
+import com.tjtofvesson.mcoverhaul.Reference;
 import com.tjtofvesson.mcoverhaul.block.PlayerPlate;
 import com.tjtofvesson.mcoverhaul.items.ItemTestItem;
 
@@ -19,6 +20,7 @@ public class MCOBlocks {
 	public static void init()
 	{
 		playerPlate = new PlayerPlate();
+		playerPlate.setCreativeTab(Reference.ttmcoTab);
 	}
 	
 	public static void register()
@@ -33,7 +35,8 @@ public class MCOBlocks {
 	
 	private static void registerRender(Block block)
 	{
-		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(Item.getItemFromBlock(block), 0, new ModelResourceLocation(block.getRegistryName(), "inventory"));
+		
+		
 		//More Efficient but non working render
 		//ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation(block.getRegistryName(), "inventory"));
 	}

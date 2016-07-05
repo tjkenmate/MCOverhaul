@@ -22,7 +22,6 @@ public class PlayerPlate extends BlockPressurePlate{
 		super(Material.ROCK, Sensitivity.MOBS);
 		setUnlocalizedName(Reference.MCOBlocksData.PlayerPlate.getUnlocalizedName());
 		setRegistryName(Reference.MCOBlocksData.PlayerPlate.getRegistryName());
-		setCreativeTab(CreativeTabs.REDSTONE);
 		slipperiness = -0.5f;
 	}
 	
@@ -32,12 +31,6 @@ public class PlayerPlate extends BlockPressurePlate{
 		List<EntityPlayer> trigger = worldIn.<EntityPlayer>getEntitiesWithinAABB(EntityPlayer.class, PRESSURE_AABB.offset(pos));
 		if(!trigger.isEmpty()) for(EntityPlayer e : trigger) if(!e.doesEntityNotTriggerPressurePlate()) return 15;
 		return 0;
-    }
-	
-	@SideOnly(Side.CLIENT)
-    public CreativeTabs getCreativeTab()
-    {
-        return CreativeTabs.REDSTONE;
     }
 
 }
