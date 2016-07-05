@@ -1,0 +1,511 @@
+Symbol range map extraction starting
+Processing 10 files
+startProcessing "com\tjtofvesson\mcoverhaul\MCOverhaul.java" md5: 531c0bfe6dbc45bf7971ca34e5d1d12d
+Cache Hit!
+@|com\tjtofvesson\mcoverhaul\MCOverhaul.java|20|46|com.tjtofvesson.mcoverhaul|package|com.tjtofvesson.mcoverhaul|(file)
+Class Start: com.tjtofvesson.mcoverhaul.MCOverhaul
+   @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|781|784|Mod|class|net.minecraftforge.fml.common.Mod
+   @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|785|790|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|793|802|Reference|class|com.tjtofvesson.mcoverhaul.Reference
+   @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|803|809|MOD_ID|field|com.tjtofvesson.mcoverhaul.Reference|MOD_ID
+   @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|811|815|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|818|827|Reference|class|com.tjtofvesson.mcoverhaul.Reference
+   @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|828|832|NAME|field|com.tjtofvesson.mcoverhaul.Reference|NAME
+   @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|834|841|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|844|853|Reference|class|com.tjtofvesson.mcoverhaul.Reference
+   @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|854|861|VERSION|field|com.tjtofvesson.mcoverhaul.Reference|VERSION
+   @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|863|888|acceptedMinecraftVersions|method|net.minecraftforge.fml.common.Mod|acceptedMinecraftVersions|()Ljava/lang/String;
+   @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|891|900|Reference|class|com.tjtofvesson.mcoverhaul.Reference
+   @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|901|908|MC_VERS|field|com.tjtofvesson.mcoverhaul.Reference|MC_VERS
+   @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|923|933|MCOverhaul|class|com.tjtofvesson.mcoverhaul.MCOverhaul
+   @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|989|999|MCOverhaul|class|com.tjtofvesson.mcoverhaul.MCOverhaul
+   @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|939|947|Instance|class|net.minecraftforge.fml.common.Mod.Instance
+   @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|948|953|value|method|net.minecraftforge.fml.common.Mod.Instance|value|()Ljava/lang/String;
+   @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|956|965|Reference|class|com.tjtofvesson.mcoverhaul.Reference
+   @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|966|972|MOD_ID|field|com.tjtofvesson.mcoverhaul.Reference|MOD_ID
+   @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|989|999|MCOverhaul|class|com.tjtofvesson.mcoverhaul.MCOverhaul
+   @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|1000|1008|instance|field|com.tjtofvesson.mcoverhaul.MCOverhaul|instance|
+   @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|1126|1137|CommonProxy|class|com.tjtofvesson.mcoverhaul.proxy.CommonProxy
+   @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|1014|1024|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy
+   @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|1025|1035|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
+   @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|1038|1047|Reference|class|com.tjtofvesson.mcoverhaul.Reference
+   @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|1048|1066|CLIENT_PROXY_CLASS|field|com.tjtofvesson.mcoverhaul.Reference|CLIENT_PROXY_CLASS
+   @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|1068|1078|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
+   @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|1081|1090|Reference|class|com.tjtofvesson.mcoverhaul.Reference
+   @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|1091|1109|SERVER_PROXY_CLASS|field|com.tjtofvesson.mcoverhaul.Reference|SERVER_PROXY_CLASS
+   @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|1126|1137|CommonProxy|class|com.tjtofvesson.mcoverhaul.proxy.CommonProxy
+   @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|1138|1143|proxy|field|com.tjtofvesson.mcoverhaul.MCOverhaul|proxy|
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|1209|1214|event|param|com.tjtofvesson.mcoverhaul.MCOverhaul|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|1149|1161|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|1175|1182|preInit|method|com.tjtofvesson.mcoverhaul.MCOverhaul|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|1183|1208|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|1224|1230|System|class|java.lang.System
+      @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|1231|1234|out|field|java.lang.System|out
+      @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|1235|1242|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|1319|1327|MCOItems|class|com.tjtofvesson.mcoverhaul.init.MCOItems
+      @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|1328|1332|init|method|com.tjtofvesson.mcoverhaul.init.MCOItems|init|()V
+      @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|1338|1347|MCOBlocks|class|com.tjtofvesson.mcoverhaul.init.MCOBlocks
+      @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|1348|1352|init|method|com.tjtofvesson.mcoverhaul.init.MCOBlocks|init|()V
+      @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|1358|1366|MCOItems|class|com.tjtofvesson.mcoverhaul.init.MCOItems
+      @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|1367|1375|register|method|com.tjtofvesson.mcoverhaul.init.MCOItems|register|()V
+      @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|1381|1390|MCOBlocks|class|com.tjtofvesson.mcoverhaul.init.MCOBlocks
+      @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|1391|1399|register|method|com.tjtofvesson.mcoverhaul.init.MCOBlocks|register|()V
+      @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|1425|1437|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|1438|1449|addSmelting|method|net.minecraftforge.fml.common.registry.GameRegistry|addSmelting|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;F)V
+      @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|1454|1463|ItemStack|class|net.minecraft.item.ItemStack
+      @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|1464|1470|Blocks|class|net.minecraft.init.Blocks
+      @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|1471|1491|STONE_PRESSURE_PLATE|field|net.minecraft.init.Blocks|STONE_PRESSURE_PLATE
+      @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|1498|1507|ItemStack|class|net.minecraft.item.ItemStack
+      @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|1508|1517|MCOBlocks|class|com.tjtofvesson.mcoverhaul.init.MCOBlocks
+      @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|1518|1529|playerPlate|field|com.tjtofvesson.mcoverhaul.init.MCOBlocks|playerPlate
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|1600|1605|event|param|com.tjtofvesson.mcoverhaul.MCOverhaul|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|1546|1558|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|1572|1576|init|method|com.tjtofvesson.mcoverhaul.MCOverhaul|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|1577|1599|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|1612|1617|proxy|field|com.tjtofvesson.mcoverhaul.MCOverhaul|proxy
+      @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|1618|1622|init|method|com.tjtofvesson.mcoverhaul.proxy.CommonProxy|init|()V
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|1695|1700|event|param|com.tjtofvesson.mcoverhaul.MCOverhaul|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|1633|1645|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|1659|1667|postInit|method|com.tjtofvesson.mcoverhaul.MCOverhaul|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\tjtofvesson\mcoverhaul\MCOverhaul.java|1668|1694|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : com.tjtofvesson.mcoverhaul.MCOverhaul
+endProcessing "com\tjtofvesson\mcoverhaul\MCOverhaul.java"
+
+startProcessing "com\tjtofvesson\mcoverhaul\Reference.java" md5: e6494356e22c03a0d2e4107f39a501e2
+@|com\tjtofvesson\mcoverhaul\Reference.java|8|34|com.tjtofvesson.mcoverhaul|package|com.tjtofvesson.mcoverhaul|(file)
+Class Start: com.tjtofvesson.mcoverhaul.Reference
+   @|com\tjtofvesson\mcoverhaul\Reference.java|163|172|Reference|class|com.tjtofvesson.mcoverhaul.Reference
+   @|com\tjtofvesson\mcoverhaul\Reference.java|197|203|String|class|java.lang.String
+   @|com\tjtofvesson\mcoverhaul\Reference.java|197|203|String|class|java.lang.String
+   @|com\tjtofvesson\mcoverhaul\Reference.java|204|210|MOD_ID|field|com.tjtofvesson.mcoverhaul.Reference|MOD_ID|
+   @|com\tjtofvesson\mcoverhaul\Reference.java|243|249|String|class|java.lang.String
+   @|com\tjtofvesson\mcoverhaul\Reference.java|243|249|String|class|java.lang.String
+   @|com\tjtofvesson\mcoverhaul\Reference.java|250|254|NAME|field|com.tjtofvesson.mcoverhaul.Reference|NAME|
+   @|com\tjtofvesson\mcoverhaul\Reference.java|300|306|String|class|java.lang.String
+   @|com\tjtofvesson\mcoverhaul\Reference.java|300|306|String|class|java.lang.String
+   @|com\tjtofvesson\mcoverhaul\Reference.java|307|314|VERSION|field|com.tjtofvesson.mcoverhaul.Reference|VERSION|
+   @|com\tjtofvesson\mcoverhaul\Reference.java|347|353|String|class|java.lang.String
+   @|com\tjtofvesson\mcoverhaul\Reference.java|347|353|String|class|java.lang.String
+   @|com\tjtofvesson\mcoverhaul\Reference.java|354|361|MC_VERS|field|com.tjtofvesson.mcoverhaul.Reference|MC_VERS|
+   @|com\tjtofvesson\mcoverhaul\Reference.java|405|411|String|class|java.lang.String
+   @|com\tjtofvesson\mcoverhaul\Reference.java|405|411|String|class|java.lang.String
+   @|com\tjtofvesson\mcoverhaul\Reference.java|412|430|CLIENT_PROXY_CLASS|field|com.tjtofvesson.mcoverhaul.Reference|CLIENT_PROXY_CLASS|
+   @|com\tjtofvesson\mcoverhaul\Reference.java|502|508|String|class|java.lang.String
+   @|com\tjtofvesson\mcoverhaul\Reference.java|502|508|String|class|java.lang.String
+   @|com\tjtofvesson\mcoverhaul\Reference.java|509|527|SERVER_PROXY_CLASS|field|com.tjtofvesson.mcoverhaul.Reference|SERVER_PROXY_CLASS|
+   @|com\tjtofvesson\mcoverhaul\Reference.java|601|613|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   @|com\tjtofvesson\mcoverhaul\Reference.java|601|613|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   @|com\tjtofvesson\mcoverhaul\Reference.java|614|622|ttmcoTab|field|com.tjtofvesson.mcoverhaul.Reference|ttmcoTab|
+   @|com\tjtofvesson\mcoverhaul\Reference.java|629|641|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   @|com\tjtofvesson\mcoverhaul\Reference.java|642|648|MOD_ID|field|com.tjtofvesson.mcoverhaul.Reference|MOD_ID
+   Anon Class Start: com.tjtofvesson.mcoverhaul.Reference$1
+      Method Start: getTabIconItem()Lnet/minecraft/item/Item;
+         @|com\tjtofvesson\mcoverhaul\Reference.java|658|666|Override|class|java.lang.Override
+         @|com\tjtofvesson\mcoverhaul\Reference.java|674|678|Item|class|net.minecraft.item.Item
+         @|com\tjtofvesson\mcoverhaul\Reference.java|679|693|getTabIconItem|method|net.minecraft.creativetab.CreativeTabs|getTabIconItem|()Lnet/minecraft/item/Item;
+         @|com\tjtofvesson\mcoverhaul\Reference.java|705|710|Items|class|net.minecraft.init.Items
+         @|com\tjtofvesson\mcoverhaul\Reference.java|711|722|ACACIA_BOAT|field|net.minecraft.init.Items|ACACIA_BOAT
+      Method End: getTabIconItem()Lnet/minecraft/item/Item;
+   Anon Class End: com.tjtofvesson.mcoverhaul.Reference$1
+   Enum Start: com.tjtofvesson.mcoverhaul.Reference.MCOItemsData
+      @|com\tjtofvesson\mcoverhaul\Reference.java|751|763|MCOItemsData|class|com.tjtofvesson.mcoverhaul.Reference.MCOItemsData
+      @|com\tjtofvesson\mcoverhaul\Reference.java|767|775|TESTITEM|field|com.tjtofvesson.mcoverhaul.Reference.MCOItemsData|TESTITEM
+      @|com\tjtofvesson\mcoverhaul\Reference.java|818|824|String|class|java.lang.String
+      @|com\tjtofvesson\mcoverhaul\Reference.java|818|824|String|class|java.lang.String
+      @|com\tjtofvesson\mcoverhaul\Reference.java|825|840|unlocalizedName|field|com.tjtofvesson.mcoverhaul.Reference.MCOItemsData|unlocalizedName|
+      @|com\tjtofvesson\mcoverhaul\Reference.java|852|858|String|class|java.lang.String
+      @|com\tjtofvesson\mcoverhaul\Reference.java|852|858|String|class|java.lang.String
+      @|com\tjtofvesson\mcoverhaul\Reference.java|859|871|registryName|field|com.tjtofvesson.mcoverhaul.Reference.MCOItemsData|registryName|
+      Method Start: MCOItemsData(Ljava/lang/String;Ljava/lang/String;)V
+         @|com\tjtofvesson\mcoverhaul\Reference.java|898|913|unlocalizedName|param|com.tjtofvesson.mcoverhaul.Reference.MCOItemsData|MCOItemsData|(Ljava/lang/String;Ljava/lang/String;)V|unlocalizedName|0
+         @|com\tjtofvesson\mcoverhaul\Reference.java|922|934|registryName|param|com.tjtofvesson.mcoverhaul.Reference.MCOItemsData|MCOItemsData|(Ljava/lang/String;Ljava/lang/String;)V|registryName|1
+         @|com\tjtofvesson\mcoverhaul\Reference.java|878|890|MCOItemsData|method|com.tjtofvesson.mcoverhaul.Reference.MCOItemsData|MCOItemsData|(Ljava/lang/String;Ljava/lang/String;)V
+         @|com\tjtofvesson\mcoverhaul\Reference.java|891|897|String|class|java.lang.String
+         @|com\tjtofvesson\mcoverhaul\Reference.java|915|921|String|class|java.lang.String
+         @|com\tjtofvesson\mcoverhaul\Reference.java|945|960|unlocalizedName|field|com.tjtofvesson.mcoverhaul.Reference.MCOItemsData|unlocalizedName
+         @|com\tjtofvesson\mcoverhaul\Reference.java|963|978|unlocalizedName|param|com.tjtofvesson.mcoverhaul.Reference.MCOItemsData|MCOItemsData|(Ljava/lang/String;Ljava/lang/String;)V|unlocalizedName|0
+         @|com\tjtofvesson\mcoverhaul\Reference.java|988|1000|registryName|field|com.tjtofvesson.mcoverhaul.Reference.MCOItemsData|registryName
+         @|com\tjtofvesson\mcoverhaul\Reference.java|1003|1015|registryName|param|com.tjtofvesson.mcoverhaul.Reference.MCOItemsData|MCOItemsData|(Ljava/lang/String;Ljava/lang/String;)V|registryName|1
+      Method End: MCOItemsData(Ljava/lang/String;Ljava/lang/String;)V
+      Method Start: getRegistryName()Ljava/lang/String;
+         @|com\tjtofvesson\mcoverhaul\Reference.java|1033|1039|String|class|java.lang.String
+         @|com\tjtofvesson\mcoverhaul\Reference.java|1040|1055|getRegistryName|method|com.tjtofvesson.mcoverhaul.Reference.MCOItemsData|getRegistryName|()Ljava/lang/String;
+         @|com\tjtofvesson\mcoverhaul\Reference.java|1070|1082|registryName|field|com.tjtofvesson.mcoverhaul.Reference.MCOItemsData|registryName
+      Method End: getRegistryName()Ljava/lang/String;
+      Method Start: getUnlocalizedName()Ljava/lang/String;
+         @|com\tjtofvesson\mcoverhaul\Reference.java|1100|1106|String|class|java.lang.String
+         @|com\tjtofvesson\mcoverhaul\Reference.java|1107|1125|getUnlocalizedName|method|com.tjtofvesson.mcoverhaul.Reference.MCOItemsData|getUnlocalizedName|()Ljava/lang/String;
+         @|com\tjtofvesson\mcoverhaul\Reference.java|1140|1155|unlocalizedName|field|com.tjtofvesson.mcoverhaul.Reference.MCOItemsData|unlocalizedName
+      Method End: getUnlocalizedName()Ljava/lang/String;
+   Enum End  : com.tjtofvesson.mcoverhaul.Reference.MCOItemsData
+   Enum Start: com.tjtofvesson.mcoverhaul.Reference.MCOBlocksData
+      @|com\tjtofvesson\mcoverhaul\Reference.java|1186|1199|MCOBlocksData|class|com.tjtofvesson.mcoverhaul.Reference.MCOBlocksData
+      @|com\tjtofvesson\mcoverhaul\Reference.java|1203|1214|PlayerPlate|field|com.tjtofvesson.mcoverhaul.Reference.MCOBlocksData|PlayerPlate
+      @|com\tjtofvesson\mcoverhaul\Reference.java|1259|1265|String|class|java.lang.String
+      @|com\tjtofvesson\mcoverhaul\Reference.java|1259|1265|String|class|java.lang.String
+      @|com\tjtofvesson\mcoverhaul\Reference.java|1266|1281|unlocalizedName|field|com.tjtofvesson.mcoverhaul.Reference.MCOBlocksData|unlocalizedName|
+      @|com\tjtofvesson\mcoverhaul\Reference.java|1293|1299|String|class|java.lang.String
+      @|com\tjtofvesson\mcoverhaul\Reference.java|1293|1299|String|class|java.lang.String
+      @|com\tjtofvesson\mcoverhaul\Reference.java|1300|1312|registryName|field|com.tjtofvesson.mcoverhaul.Reference.MCOBlocksData|registryName|
+      Method Start: MCOBlocksData(Ljava/lang/String;Ljava/lang/String;)V
+         @|com\tjtofvesson\mcoverhaul\Reference.java|1340|1355|unlocalizedName|param|com.tjtofvesson.mcoverhaul.Reference.MCOBlocksData|MCOBlocksData|(Ljava/lang/String;Ljava/lang/String;)V|unlocalizedName|0
+         @|com\tjtofvesson\mcoverhaul\Reference.java|1364|1376|registryName|param|com.tjtofvesson.mcoverhaul.Reference.MCOBlocksData|MCOBlocksData|(Ljava/lang/String;Ljava/lang/String;)V|registryName|1
+         @|com\tjtofvesson\mcoverhaul\Reference.java|1319|1332|MCOBlocksData|method|com.tjtofvesson.mcoverhaul.Reference.MCOBlocksData|MCOBlocksData|(Ljava/lang/String;Ljava/lang/String;)V
+         @|com\tjtofvesson\mcoverhaul\Reference.java|1333|1339|String|class|java.lang.String
+         @|com\tjtofvesson\mcoverhaul\Reference.java|1357|1363|String|class|java.lang.String
+         @|com\tjtofvesson\mcoverhaul\Reference.java|1387|1402|unlocalizedName|field|com.tjtofvesson.mcoverhaul.Reference.MCOBlocksData|unlocalizedName
+         @|com\tjtofvesson\mcoverhaul\Reference.java|1405|1420|unlocalizedName|param|com.tjtofvesson.mcoverhaul.Reference.MCOBlocksData|MCOBlocksData|(Ljava/lang/String;Ljava/lang/String;)V|unlocalizedName|0
+         @|com\tjtofvesson\mcoverhaul\Reference.java|1430|1442|registryName|field|com.tjtofvesson.mcoverhaul.Reference.MCOBlocksData|registryName
+         @|com\tjtofvesson\mcoverhaul\Reference.java|1445|1457|registryName|param|com.tjtofvesson.mcoverhaul.Reference.MCOBlocksData|MCOBlocksData|(Ljava/lang/String;Ljava/lang/String;)V|registryName|1
+      Method End: MCOBlocksData(Ljava/lang/String;Ljava/lang/String;)V
+      Method Start: getRegistryName()Ljava/lang/String;
+         @|com\tjtofvesson\mcoverhaul\Reference.java|1475|1481|String|class|java.lang.String
+         @|com\tjtofvesson\mcoverhaul\Reference.java|1482|1497|getRegistryName|method|com.tjtofvesson.mcoverhaul.Reference.MCOBlocksData|getRegistryName|()Ljava/lang/String;
+         @|com\tjtofvesson\mcoverhaul\Reference.java|1512|1524|registryName|field|com.tjtofvesson.mcoverhaul.Reference.MCOBlocksData|registryName
+      Method End: getRegistryName()Ljava/lang/String;
+      Method Start: getUnlocalizedName()Ljava/lang/String;
+         @|com\tjtofvesson\mcoverhaul\Reference.java|1542|1548|String|class|java.lang.String
+         @|com\tjtofvesson\mcoverhaul\Reference.java|1549|1567|getUnlocalizedName|method|com.tjtofvesson.mcoverhaul.Reference.MCOBlocksData|getUnlocalizedName|()Ljava/lang/String;
+         @|com\tjtofvesson\mcoverhaul\Reference.java|1582|1597|unlocalizedName|field|com.tjtofvesson.mcoverhaul.Reference.MCOBlocksData|unlocalizedName
+      Method End: getUnlocalizedName()Ljava/lang/String;
+   Enum End  : com.tjtofvesson.mcoverhaul.Reference.MCOBlocksData
+Class End  : com.tjtofvesson.mcoverhaul.Reference
+endProcessing "com\tjtofvesson\mcoverhaul\Reference.java"
+
+startProcessing "com\tjtofvesson\mcoverhaul\block\PlayerPlate.java" md5: 34de3fee2082da796b718d77c29c2e70
+Cache Hit!
+@|com\tjtofvesson\mcoverhaul\block\PlayerPlate.java|8|40|com.tjtofvesson.mcoverhaul.block|package|com.tjtofvesson.mcoverhaul.block|(file)
+Class Start: com.tjtofvesson.mcoverhaul.block.PlayerPlate
+   @|com\tjtofvesson\mcoverhaul\block\PlayerPlate.java|525|536|PlayerPlate|class|com.tjtofvesson.mcoverhaul.block.PlayerPlate
+   @|com\tjtofvesson\mcoverhaul\block\PlayerPlate.java|545|563|BlockPressurePlate|class|net.minecraft.block.BlockPressurePlate
+   Method Start: PlayerPlate()V
+      @|com\tjtofvesson\mcoverhaul\block\PlayerPlate.java|574|585|PlayerPlate|method|com.tjtofvesson.mcoverhaul.block.PlayerPlate|PlayerPlate|()V
+   Method End: PlayerPlate()V
+   Method Start: PlayerPlate(Lnet/minecraft/block/material/Material;Lnet/minecraft/block/BlockPressurePlate$Sensitivity;)V
+      @|com\tjtofvesson\mcoverhaul\block\PlayerPlate.java|643|653|materialIn|param|com.tjtofvesson.mcoverhaul.block.PlayerPlate|PlayerPlate|(Lnet/minecraft/block/material/Material;Lnet/minecraft/block/BlockPressurePlate$Sensitivity;)V|materialIn|0
+      @|com\tjtofvesson\mcoverhaul\block\PlayerPlate.java|667|680|sensitivityIn|param|com.tjtofvesson.mcoverhaul.block.PlayerPlate|PlayerPlate|(Lnet/minecraft/block/material/Material;Lnet/minecraft/block/BlockPressurePlate$Sensitivity;)V|sensitivityIn|1
+      @|com\tjtofvesson\mcoverhaul\block\PlayerPlate.java|622|633|PlayerPlate|method|com.tjtofvesson.mcoverhaul.block.PlayerPlate|PlayerPlate|(Lnet/minecraft/block/material/Material;Lnet/minecraft/block/BlockPressurePlate$Sensitivity;)V
+      @|com\tjtofvesson\mcoverhaul\block\PlayerPlate.java|634|642|Material|class|net.minecraft.block.material.Material
+      @|com\tjtofvesson\mcoverhaul\block\PlayerPlate.java|655|666|Sensitivity|class|net.minecraft.block.BlockPressurePlate.Sensitivity
+      @|com\tjtofvesson\mcoverhaul\block\PlayerPlate.java|692|700|Material|class|net.minecraft.block.material.Material
+      @|com\tjtofvesson\mcoverhaul\block\PlayerPlate.java|701|705|ROCK|field|net.minecraft.block.material.Material|ROCK
+      @|com\tjtofvesson\mcoverhaul\block\PlayerPlate.java|707|718|Sensitivity|class|net.minecraft.block.BlockPressurePlate.Sensitivity
+      @|com\tjtofvesson\mcoverhaul\block\PlayerPlate.java|719|723|MOBS|field|net.minecraft.block.BlockPressurePlate.Sensitivity|MOBS
+      @|com\tjtofvesson\mcoverhaul\block\PlayerPlate.java|728|746|setUnlocalizedName|method|net.minecraft.block.Block|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/block/Block;
+      @|com\tjtofvesson\mcoverhaul\block\PlayerPlate.java|747|770|Reference.MCOBlocksData|class|com.tjtofvesson.mcoverhaul.Reference.MCOBlocksData
+      @|com\tjtofvesson\mcoverhaul\block\PlayerPlate.java|771|782|PlayerPlate|field|com.tjtofvesson.mcoverhaul.Reference.MCOBlocksData|PlayerPlate
+      @|com\tjtofvesson\mcoverhaul\block\PlayerPlate.java|783|801|getUnlocalizedName|method|com.tjtofvesson.mcoverhaul.Reference.MCOBlocksData|getUnlocalizedName|()Ljava/lang/String;
+      @|com\tjtofvesson\mcoverhaul\block\PlayerPlate.java|808|823|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|com\tjtofvesson\mcoverhaul\block\PlayerPlate.java|824|847|Reference.MCOBlocksData|class|com.tjtofvesson.mcoverhaul.Reference.MCOBlocksData
+      @|com\tjtofvesson\mcoverhaul\block\PlayerPlate.java|848|859|PlayerPlate|field|com.tjtofvesson.mcoverhaul.Reference.MCOBlocksData|PlayerPlate
+      @|com\tjtofvesson\mcoverhaul\block\PlayerPlate.java|860|875|getRegistryName|method|com.tjtofvesson.mcoverhaul.Reference.MCOBlocksData|getRegistryName|()Ljava/lang/String;
+      @|com\tjtofvesson\mcoverhaul\block\PlayerPlate.java|882|896|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|com\tjtofvesson\mcoverhaul\block\PlayerPlate.java|897|906|Reference|class|com.tjtofvesson.mcoverhaul.Reference
+      @|com\tjtofvesson\mcoverhaul\block\PlayerPlate.java|907|915|ttmcoTab|field|com.tjtofvesson.mcoverhaul.Reference|ttmcoTab
+      @|com\tjtofvesson\mcoverhaul\block\PlayerPlate.java|920|931|setHardness|method|net.minecraft.block.Block|setHardness|(F)Lnet/minecraft/block/Block;
+      @|com\tjtofvesson\mcoverhaul\block\PlayerPlate.java|941|956|setHarvestLevel|method|net.minecraft.block.Block|setHarvestLevel|(Ljava/lang/String;I)V
+   Method End: PlayerPlate(Lnet/minecraft/block/material/Material;Lnet/minecraft/block/BlockPressurePlate$Sensitivity;)V
+   Method Start: computeRedstoneStrength(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)I
+      @|com\tjtofvesson\mcoverhaul\block\PlayerPlate.java|1033|1040|worldIn|param|com.tjtofvesson.mcoverhaul.block.PlayerPlate|computeRedstoneStrength|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)I|worldIn|0
+      @|com\tjtofvesson\mcoverhaul\block\PlayerPlate.java|1051|1054|pos|param|com.tjtofvesson.mcoverhaul.block.PlayerPlate|computeRedstoneStrength|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)I|pos|1
+      @|com\tjtofvesson\mcoverhaul\block\PlayerPlate.java|979|987|Override|class|java.lang.Override
+      @|com\tjtofvesson\mcoverhaul\block\PlayerPlate.java|1003|1026|computeRedstoneStrength|method|net.minecraft.block.BlockBasePressurePlate|computeRedstoneStrength|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)I
+      @|com\tjtofvesson\mcoverhaul\block\PlayerPlate.java|1027|1032|World|class|net.minecraft.world.World
+      @|com\tjtofvesson\mcoverhaul\block\PlayerPlate.java|1042|1050|BlockPos|class|net.minecraft.util.math.BlockPos
+      @|com\tjtofvesson\mcoverhaul\block\PlayerPlate.java|1064|1068|List|class|java.util.List
+      @|com\tjtofvesson\mcoverhaul\block\PlayerPlate.java|1069|1081|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|com\tjtofvesson\mcoverhaul\block\PlayerPlate.java|1093|1100|worldIn|param|com.tjtofvesson.mcoverhaul.block.PlayerPlate|computeRedstoneStrength|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)I|worldIn|0
+      @|com\tjtofvesson\mcoverhaul\block\PlayerPlate.java|1102|1114|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|com\tjtofvesson\mcoverhaul\block\PlayerPlate.java|1115|1136|getEntitiesWithinAABB|method|net.minecraft.world.World|getEntitiesWithinAABB|(Ljava/lang/Class;Lnet/minecraft/util/math/AxisAlignedBB;)Ljava/util/List;
+      @|com\tjtofvesson\mcoverhaul\block\PlayerPlate.java|1137|1149|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|com\tjtofvesson\mcoverhaul\block\PlayerPlate.java|1157|1170|PRESSURE_AABB|field|net.minecraft.block.BlockBasePressurePlate|PRESSURE_AABB
+      @|com\tjtofvesson\mcoverhaul\block\PlayerPlate.java|1171|1177|offset|method|net.minecraft.util.math.AxisAlignedBB|offset|(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;
+      @|com\tjtofvesson\mcoverhaul\block\PlayerPlate.java|1178|1181|pos|param|com.tjtofvesson.mcoverhaul.block.PlayerPlate|computeRedstoneStrength|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)I|pos|1
+      @|com\tjtofvesson\mcoverhaul\block\PlayerPlate.java|1199|1206|isEmpty|method|java.util.Collection|isEmpty|()Z
+      @|com\tjtofvesson\mcoverhaul\block\PlayerPlate.java|1214|1226|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|com\tjtofvesson\mcoverhaul\block\PlayerPlate.java|1246|1279|doesEntityNotTriggerPressurePlate|method|net.minecraft.entity.Entity|doesEntityNotTriggerPressurePlate|()Z
+   Method End: computeRedstoneStrength(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)I
+Class End  : com.tjtofvesson.mcoverhaul.block.PlayerPlate
+endProcessing "com\tjtofvesson\mcoverhaul\block\PlayerPlate.java"
+
+startProcessing "com\tjtofvesson\mcoverhaul\init\MCOBlocks.java" md5: 9fcd1f9000f3b8f01d1a6aa738a47ed9
+Cache Hit!
+@|com\tjtofvesson\mcoverhaul\init\MCOBlocks.java|8|39|com.tjtofvesson.mcoverhaul.init|package|com.tjtofvesson.mcoverhaul.init|(file)
+Class Start: com.tjtofvesson.mcoverhaul.init.MCOBlocks
+   @|com\tjtofvesson\mcoverhaul\init\MCOBlocks.java|573|582|MCOBlocks|class|com.tjtofvesson.mcoverhaul.init.MCOBlocks
+   @|com\tjtofvesson\mcoverhaul\init\MCOBlocks.java|602|613|PlayerPlate|class|com.tjtofvesson.mcoverhaul.block.PlayerPlate
+   @|com\tjtofvesson\mcoverhaul\init\MCOBlocks.java|602|613|PlayerPlate|class|com.tjtofvesson.mcoverhaul.block.PlayerPlate
+   @|com\tjtofvesson\mcoverhaul\init\MCOBlocks.java|614|625|playerPlate|field|com.tjtofvesson.mcoverhaul.init.MCOBlocks|playerPlate|
+   Method Start: init()V
+      @|com\tjtofvesson\mcoverhaul\init\MCOBlocks.java|648|652|init|method|com.tjtofvesson.mcoverhaul.init.MCOBlocks|init|()V
+      @|com\tjtofvesson\mcoverhaul\init\MCOBlocks.java|660|671|playerPlate|field|com.tjtofvesson.mcoverhaul.init.MCOBlocks|playerPlate
+      @|com\tjtofvesson\mcoverhaul\init\MCOBlocks.java|678|689|PlayerPlate|class|com.tjtofvesson.mcoverhaul.block.PlayerPlate
+   Method End: init()V
+   Method Start: register()V
+      @|com\tjtofvesson\mcoverhaul\init\MCOBlocks.java|718|726|register|method|com.tjtofvesson.mcoverhaul.init.MCOBlocks|register|()V
+      @|com\tjtofvesson\mcoverhaul\init\MCOBlocks.java|734|746|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com\tjtofvesson\mcoverhaul\init\MCOBlocks.java|747|755|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|com\tjtofvesson\mcoverhaul\init\MCOBlocks.java|756|767|playerPlate|field|com.tjtofvesson.mcoverhaul.init.MCOBlocks|playerPlate
+      @|com\tjtofvesson\mcoverhaul\init\MCOBlocks.java|772|781|ItemBlock|class|net.minecraft.item.ItemBlock
+      @|com\tjtofvesson\mcoverhaul\init\MCOBlocks.java|790|799|ItemBlock|class|net.minecraft.item.ItemBlock
+      @|com\tjtofvesson\mcoverhaul\init\MCOBlocks.java|800|811|playerPlate|field|com.tjtofvesson.mcoverhaul.init.MCOBlocks|playerPlate
+      @|com\tjtofvesson\mcoverhaul\init\MCOBlocks.java|818|833|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry|setRegistryName|(Lnet/minecraft/util/ResourceLocation;)Ljava/lang/Object;
+      @|com\tjtofvesson\mcoverhaul\init\MCOBlocks.java|834|845|playerPlate|field|com.tjtofvesson.mcoverhaul.init.MCOBlocks|playerPlate
+      @|com\tjtofvesson\mcoverhaul\init\MCOBlocks.java|846|861|getRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+      @|com\tjtofvesson\mcoverhaul\init\MCOBlocks.java|868|880|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com\tjtofvesson\mcoverhaul\init\MCOBlocks.java|881|889|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+   Method End: register()V
+   Method Start: registerRenders()V
+      @|com\tjtofvesson\mcoverhaul\init\MCOBlocks.java|919|934|registerRenders|method|com.tjtofvesson.mcoverhaul.init.MCOBlocks|registerRenders|()V
+      @|com\tjtofvesson\mcoverhaul\init\MCOBlocks.java|942|956|registerRender|method|com.tjtofvesson.mcoverhaul.init.MCOBlocks|registerRender|(Lnet/minecraft/block/Block;)V
+      @|com\tjtofvesson\mcoverhaul\init\MCOBlocks.java|957|968|playerPlate|field|com.tjtofvesson.mcoverhaul.init.MCOBlocks|playerPlate
+   Method End: registerRenders()V
+   Method Start: registerRender(Lnet/minecraft/block/Block;)V
+      @|com\tjtofvesson\mcoverhaul\init\MCOBlocks.java|1018|1023|block|param|com.tjtofvesson.mcoverhaul.init.MCOBlocks|registerRender|(Lnet/minecraft/block/Block;)V|block|0
+      @|com\tjtofvesson\mcoverhaul\init\MCOBlocks.java|997|1011|registerRender|method|com.tjtofvesson.mcoverhaul.init.MCOBlocks|registerRender|(Lnet/minecraft/block/Block;)V
+      @|com\tjtofvesson\mcoverhaul\init\MCOBlocks.java|1012|1017|Block|class|net.minecraft.block.Block
+      @|com\tjtofvesson\mcoverhaul\init\MCOBlocks.java|1030|1039|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\tjtofvesson\mcoverhaul\init\MCOBlocks.java|1040|1052|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\tjtofvesson\mcoverhaul\init\MCOBlocks.java|1055|1068|getRenderItem|method|net.minecraft.client.Minecraft|getRenderItem|()Lnet/minecraft/client/renderer/RenderItem;
+      @|com\tjtofvesson\mcoverhaul\init\MCOBlocks.java|1071|1089|getItemModelMesher|method|net.minecraft.client.renderer.RenderItem|getItemModelMesher|()Lnet/minecraft/client/renderer/ItemModelMesher;
+      @|com\tjtofvesson\mcoverhaul\init\MCOBlocks.java|1092|1100|register|method|net.minecraft.client.renderer.ItemModelMesher|register|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|com\tjtofvesson\mcoverhaul\init\MCOBlocks.java|1101|1105|Item|class|net.minecraft.item.Item
+      @|com\tjtofvesson\mcoverhaul\init\MCOBlocks.java|1106|1122|getItemFromBlock|method|net.minecraft.item.Item|getItemFromBlock|(Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;
+      @|com\tjtofvesson\mcoverhaul\init\MCOBlocks.java|1123|1128|block|param|com.tjtofvesson.mcoverhaul.init.MCOBlocks|registerRender|(Lnet/minecraft/block/Block;)V|block|0
+      @|com\tjtofvesson\mcoverhaul\init\MCOBlocks.java|1138|1159|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|com\tjtofvesson\mcoverhaul\init\MCOBlocks.java|1160|1165|block|param|com.tjtofvesson.mcoverhaul.init.MCOBlocks|registerRender|(Lnet/minecraft/block/Block;)V|block|0
+      @|com\tjtofvesson\mcoverhaul\init\MCOBlocks.java|1166|1181|getRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+   Method End: registerRender(Lnet/minecraft/block/Block;)V
+Class End  : com.tjtofvesson.mcoverhaul.init.MCOBlocks
+endProcessing "com\tjtofvesson\mcoverhaul\init\MCOBlocks.java"
+
+startProcessing "com\tjtofvesson\mcoverhaul\init\MCOItems.java" md5: bb42b519d61776086145fd6f7b6a00c2
+Cache Hit!
+@|com\tjtofvesson\mcoverhaul\init\MCOItems.java|8|39|com.tjtofvesson.mcoverhaul.init|package|com.tjtofvesson.mcoverhaul.init|(file)
+Class Start: com.tjtofvesson.mcoverhaul.init.MCOItems
+   @|com\tjtofvesson\mcoverhaul\init\MCOItems.java|359|367|MCOItems|class|com.tjtofvesson.mcoverhaul.init.MCOItems
+   @|com\tjtofvesson\mcoverhaul\init\MCOItems.java|387|391|Item|class|net.minecraft.item.Item
+   @|com\tjtofvesson\mcoverhaul\init\MCOItems.java|387|391|Item|class|net.minecraft.item.Item
+   @|com\tjtofvesson\mcoverhaul\init\MCOItems.java|392|400|testItem|field|com.tjtofvesson.mcoverhaul.init.MCOItems|testItem|
+   Method Start: init()V
+      @|com\tjtofvesson\mcoverhaul\init\MCOItems.java|423|427|init|method|com.tjtofvesson.mcoverhaul.init.MCOItems|init|()V
+      @|com\tjtofvesson\mcoverhaul\init\MCOItems.java|435|443|testItem|field|com.tjtofvesson.mcoverhaul.init.MCOItems|testItem
+      @|com\tjtofvesson\mcoverhaul\init\MCOItems.java|450|462|ItemTestItem|class|com.tjtofvesson.mcoverhaul.items.ItemTestItem
+   Method End: init()V
+   Method Start: register()V
+      @|com\tjtofvesson\mcoverhaul\init\MCOItems.java|491|499|register|method|com.tjtofvesson.mcoverhaul.init.MCOItems|register|()V
+      @|com\tjtofvesson\mcoverhaul\init\MCOItems.java|507|519|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com\tjtofvesson\mcoverhaul\init\MCOItems.java|520|528|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|com\tjtofvesson\mcoverhaul\init\MCOItems.java|529|537|testItem|field|com.tjtofvesson.mcoverhaul.init.MCOItems|testItem
+   Method End: register()V
+   Method Start: registerRenders()V
+      @|com\tjtofvesson\mcoverhaul\init\MCOItems.java|565|580|registerRenders|method|com.tjtofvesson.mcoverhaul.init.MCOItems|registerRenders|()V
+      @|com\tjtofvesson\mcoverhaul\init\MCOItems.java|588|602|registerRender|method|com.tjtofvesson.mcoverhaul.init.MCOItems|registerRender|(Lnet/minecraft/item/Item;)V
+      @|com\tjtofvesson\mcoverhaul\init\MCOItems.java|603|611|testItem|field|com.tjtofvesson.mcoverhaul.init.MCOItems|testItem
+   Method End: registerRenders()V
+   Method Start: registerRender(Lnet/minecraft/item/Item;)V
+      @|com\tjtofvesson\mcoverhaul\init\MCOItems.java|660|664|item|param|com.tjtofvesson.mcoverhaul.init.MCOItems|registerRender|(Lnet/minecraft/item/Item;)V|item|0
+      @|com\tjtofvesson\mcoverhaul\init\MCOItems.java|640|654|registerRender|method|com.tjtofvesson.mcoverhaul.init.MCOItems|registerRender|(Lnet/minecraft/item/Item;)V
+      @|com\tjtofvesson\mcoverhaul\init\MCOItems.java|655|659|Item|class|net.minecraft.item.Item
+      @|com\tjtofvesson\mcoverhaul\init\MCOItems.java|671|680|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\tjtofvesson\mcoverhaul\init\MCOItems.java|681|693|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\tjtofvesson\mcoverhaul\init\MCOItems.java|696|709|getRenderItem|method|net.minecraft.client.Minecraft|getRenderItem|()Lnet/minecraft/client/renderer/RenderItem;
+      @|com\tjtofvesson\mcoverhaul\init\MCOItems.java|712|730|getItemModelMesher|method|net.minecraft.client.renderer.RenderItem|getItemModelMesher|()Lnet/minecraft/client/renderer/ItemModelMesher;
+      @|com\tjtofvesson\mcoverhaul\init\MCOItems.java|733|741|register|method|net.minecraft.client.renderer.ItemModelMesher|register|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|com\tjtofvesson\mcoverhaul\init\MCOItems.java|742|746|item|param|com.tjtofvesson.mcoverhaul.init.MCOItems|registerRender|(Lnet/minecraft/item/Item;)V|item|0
+      @|com\tjtofvesson\mcoverhaul\init\MCOItems.java|755|776|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|com\tjtofvesson\mcoverhaul\init\MCOItems.java|777|781|item|param|com.tjtofvesson.mcoverhaul.init.MCOItems|registerRender|(Lnet/minecraft/item/Item;)V|item|0
+      @|com\tjtofvesson\mcoverhaul\init\MCOItems.java|782|797|getRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+   Method End: registerRender(Lnet/minecraft/item/Item;)V
+Class End  : com.tjtofvesson.mcoverhaul.init.MCOItems
+endProcessing "com\tjtofvesson\mcoverhaul\init\MCOItems.java"
+
+startProcessing "com\tjtofvesson\mcoverhaul\items\ItemTestItem.java" md5: 0ef44eeb39b0f94ba5d005637e36d747
+Cache Hit!
+@|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|8|40|com.tjtofvesson.mcoverhaul.items|package|com.tjtofvesson.mcoverhaul.items|(file)
+Class Start: com.tjtofvesson.mcoverhaul.items.ItemTestItem
+   @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|702|714|ItemTestItem|class|com.tjtofvesson.mcoverhaul.items.ItemTestItem
+   @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|723|727|Item|class|net.minecraft.item.Item
+   Method Start: ItemTestItem()V
+      @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|740|752|ItemTestItem|method|com.tjtofvesson.mcoverhaul.items.ItemTestItem|ItemTestItem|()V
+      @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|759|777|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|778|800|Reference.MCOItemsData|class|com.tjtofvesson.mcoverhaul.Reference.MCOItemsData
+      @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|801|809|TESTITEM|field|com.tjtofvesson.mcoverhaul.Reference.MCOItemsData|TESTITEM
+      @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|810|828|getUnlocalizedName|method|com.tjtofvesson.mcoverhaul.Reference.MCOItemsData|getUnlocalizedName|()Ljava/lang/String;
+      @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|835|850|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|851|873|Reference.MCOItemsData|class|com.tjtofvesson.mcoverhaul.Reference.MCOItemsData
+      @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|874|882|TESTITEM|field|com.tjtofvesson.mcoverhaul.Reference.MCOItemsData|TESTITEM
+      @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|883|898|getRegistryName|method|com.tjtofvesson.mcoverhaul.Reference.MCOItemsData|getRegistryName|()Ljava/lang/String;
+      @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|905|919|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|920|929|Reference|class|com.tjtofvesson.mcoverhaul.Reference
+      @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|930|938|ttmcoTab|field|com.tjtofvesson.mcoverhaul.Reference|ttmcoTab
+      @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|948|960|maxStackSize|field|net.minecraft.item.Item|maxStackSize
+   Method End: ItemTestItem()V
+   Method Start: onLeftClickEntity(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/entity/Entity;)Z
+      @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1048|1053|stack|param|com.tjtofvesson.mcoverhaul.items.ItemTestItem|onLeftClickEntity|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/entity/Entity;)Z|stack|0
+      @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1074|1080|player|param|com.tjtofvesson.mcoverhaul.items.ItemTestItem|onLeftClickEntity|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/entity/Entity;)Z|player|1
+      @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1095|1101|entity|param|com.tjtofvesson.mcoverhaul.items.ItemTestItem|onLeftClickEntity|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/entity/Entity;)Z|entity|2
+      @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|979|987|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly
+      @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|988|992|Side|class|net.minecraftforge.fml.relauncher.Side
+      @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|993|999|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1020|1037|onLeftClickEntity|method|net.minecraft.item.Item|onLeftClickEntity|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/entity/Entity;)Z
+      @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1038|1047|ItemStack|class|net.minecraft.item.ItemStack
+      @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1061|1073|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1088|1094|Entity|class|net.minecraft.entity.Entity
+      @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1115|1132|onLeftClickEntity|method|net.minecraft.item.Item|onLeftClickEntity|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/entity/Entity;)Z
+      @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1133|1138|stack|param|com.tjtofvesson.mcoverhaul.items.ItemTestItem|onLeftClickEntity|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/entity/Entity;)Z|stack|0
+      @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1140|1146|player|param|com.tjtofvesson.mcoverhaul.items.ItemTestItem|onLeftClickEntity|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/entity/Entity;)Z|player|1
+      @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1148|1154|entity|param|com.tjtofvesson.mcoverhaul.items.ItemTestItem|onLeftClickEntity|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/entity/Entity;)Z|entity|2
+      @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1162|1171|ChatUtils|class|com.tjtofvesson.mcoverhaul.utils.ChatUtils
+      @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1172|1190|sendNoSpamMessages|method|com.tjtofvesson.mcoverhaul.utils.ChatUtils|sendNoSpamMessages|(ILnet/minecraft/util/text/ITextComponent;)V
+      @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1200|1214|ITextComponent|class|net.minecraft.util.text.ITextComponent
+      Anon Class Start: com.tjtofvesson.mcoverhaul.items.ItemTestItem$1
+         Method Start: iterator()Ljava/util/Iterator;
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1223|1231|Override|class|java.lang.Override
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1242|1250|Iterator|class|java.util.Iterator
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1251|1265|ITextComponent|class|net.minecraft.util.text.ITextComponent
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1267|1275|iterator|method|java.lang.Iterable|iterator|()Ljava/util/Iterator;
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1284|1288|List|class|java.util.List
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1289|1303|ITextComponent|class|net.minecraft.util.text.ITextComponent
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1313|1322|ArrayList|class|java.util.ArrayList
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1323|1337|ITextComponent|class|net.minecraft.util.text.ITextComponent
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1348|1351|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1372|1380|iterator|method|java.lang.Iterable|iterator|()Ljava/util/Iterator;
+         Method End: iterator()Ljava/util/Iterator;
+         Method Start: setStyle(Lnet/minecraft/util/text/Style;)Lnet/minecraft/util/text/ITextComponent;
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1443|1448|style|param|com.tjtofvesson.mcoverhaul.items.ItemTestItem$1|setStyle|(Lnet/minecraft/util/text/Style;)Lnet/minecraft/util/text/ITextComponent;|style|0
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1394|1402|Override|class|java.lang.Override
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1413|1427|ITextComponent|class|net.minecraft.util.text.ITextComponent
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1428|1436|setStyle|method|net.minecraft.util.text.ITextComponent|setStyle|(Lnet/minecraft/util/text/Style;)Lnet/minecraft/util/text/ITextComponent;
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1437|1442|Style|class|net.minecraft.util.text.Style
+         Method End: setStyle(Lnet/minecraft/util/text/Style;)Lnet/minecraft/util/text/ITextComponent;
+         Method Start: getStyle()Lnet/minecraft/util/text/Style;
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1479|1487|Override|class|java.lang.Override
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1498|1503|Style|class|net.minecraft.util.text.Style
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1504|1512|getStyle|method|net.minecraft.util.text.ITextComponent|getStyle|()Lnet/minecraft/util/text/Style;
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1532|1537|Style|class|net.minecraft.util.text.Style
+         Method End: getStyle()Lnet/minecraft/util/text/Style;
+         Method Start: appendText(Ljava/lang/String;)Lnet/minecraft/util/text/ITextComponent;
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1603|1607|text|param|com.tjtofvesson.mcoverhaul.items.ItemTestItem$1|appendText|(Ljava/lang/String;)Lnet/minecraft/util/text/ITextComponent;|text|0
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1551|1559|Override|class|java.lang.Override
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1570|1584|ITextComponent|class|net.minecraft.util.text.ITextComponent
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1585|1595|appendText|method|net.minecraft.util.text.ITextComponent|appendText|(Ljava/lang/String;)Lnet/minecraft/util/text/ITextComponent;
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1596|1602|String|class|java.lang.String
+         Method End: appendText(Ljava/lang/String;)Lnet/minecraft/util/text/ITextComponent;
+         Method Start: appendSibling(Lnet/minecraft/util/text/ITextComponent;)Lnet/minecraft/util/text/ITextComponent;
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1701|1710|component|param|com.tjtofvesson.mcoverhaul.items.ItemTestItem$1|appendSibling|(Lnet/minecraft/util/text/ITextComponent;)Lnet/minecraft/util/text/ITextComponent;|component|0
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1638|1646|Override|class|java.lang.Override
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1657|1671|ITextComponent|class|net.minecraft.util.text.ITextComponent
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1672|1685|appendSibling|method|net.minecraft.util.text.ITextComponent|appendSibling|(Lnet/minecraft/util/text/ITextComponent;)Lnet/minecraft/util/text/ITextComponent;
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1686|1700|ITextComponent|class|net.minecraft.util.text.ITextComponent
+         Method End: appendSibling(Lnet/minecraft/util/text/ITextComponent;)Lnet/minecraft/util/text/ITextComponent;
+         Method Start: getUnformattedComponentText()Ljava/lang/String;
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1741|1749|Override|class|java.lang.Override
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1760|1766|String|class|java.lang.String
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1767|1794|getUnformattedComponentText|method|net.minecraft.util.text.ITextComponent|getUnformattedComponentText|()Ljava/lang/String;
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1823|1829|entity|param|com.tjtofvesson.mcoverhaul.items.ItemTestItem|onLeftClickEntity|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/entity/Entity;)Z|entity|2
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1830|1837|getName|method|net.minecraft.command.ICommandSender|getName|()Ljava/lang/String;
+         Method End: getUnformattedComponentText()Ljava/lang/String;
+         Method Start: getUnformattedText()Ljava/lang/String;
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1851|1859|Override|class|java.lang.Override
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1870|1876|String|class|java.lang.String
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1877|1895|getUnformattedText|method|net.minecraft.util.text.ITextComponent|getUnformattedText|()Ljava/lang/String;
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1924|1930|entity|param|com.tjtofvesson.mcoverhaul.items.ItemTestItem|onLeftClickEntity|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/entity/Entity;)Z|entity|2
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1931|1938|getName|method|net.minecraft.command.ICommandSender|getName|()Ljava/lang/String;
+         Method End: getUnformattedText()Ljava/lang/String;
+         Method Start: getFormattedText()Ljava/lang/String;
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1952|1960|Override|class|java.lang.Override
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1971|1977|String|class|java.lang.String
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|1978|1994|getFormattedText|method|net.minecraft.util.text.ITextComponent|getFormattedText|()Ljava/lang/String;
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|2023|2029|entity|param|com.tjtofvesson.mcoverhaul.items.ItemTestItem|onLeftClickEntity|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/entity/Entity;)Z|entity|2
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|2030|2037|getName|method|net.minecraft.command.ICommandSender|getName|()Ljava/lang/String;
+         Method End: getFormattedText()Ljava/lang/String;
+         Method Start: getSiblings()Ljava/util/List;
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|2051|2059|Override|class|java.lang.Override
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|2070|2074|List|class|java.util.List
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|2075|2089|ITextComponent|class|net.minecraft.util.text.ITextComponent
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|2091|2102|getSiblings|method|net.minecraft.util.text.ITextComponent|getSiblings|()Ljava/util/List;
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|2122|2131|ArrayList|class|java.util.ArrayList
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|2132|2146|ITextComponent|class|net.minecraft.util.text.ITextComponent
+         Method End: getSiblings()Ljava/util/List;
+         Method Start: createCopy()Lnet/minecraft/util/text/ITextComponent;
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|2161|2169|Override|class|java.lang.Override
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|2180|2194|ITextComponent|class|net.minecraft.util.text.ITextComponent
+            @|com\tjtofvesson\mcoverhaul\items\ItemTestItem.java|2195|2205|createCopy|method|net.minecraft.util.text.ITextComponent|createCopy|()Lnet/minecraft/util/text/ITextComponent;
+         Method End: createCopy()Lnet/minecraft/util/text/ITextComponent;
+      Anon Class End: com.tjtofvesson.mcoverhaul.items.ItemTestItem$1
+   Method End: onLeftClickEntity(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/entity/Entity;)Z
+Class End  : com.tjtofvesson.mcoverhaul.items.ItemTestItem
+endProcessing "com\tjtofvesson\mcoverhaul\items\ItemTestItem.java"
+
+startProcessing "com\tjtofvesson\mcoverhaul\proxy\ClientProxy.java" md5: 906923f9090a721dccf9dbda8ea51ac4
+Cache Hit!
+@|com\tjtofvesson\mcoverhaul\proxy\ClientProxy.java|8|40|com.tjtofvesson.mcoverhaul.proxy|package|com.tjtofvesson.mcoverhaul.proxy|(file)
+Class Start: com.tjtofvesson.mcoverhaul.proxy.ClientProxy
+   @|com\tjtofvesson\mcoverhaul\proxy\ClientProxy.java|156|167|ClientProxy|class|com.tjtofvesson.mcoverhaul.proxy.ClientProxy
+   @|com\tjtofvesson\mcoverhaul\proxy\ClientProxy.java|179|190|CommonProxy|class|com.tjtofvesson.mcoverhaul.proxy.CommonProxy
+   Method Start: init()V
+      @|com\tjtofvesson\mcoverhaul\proxy\ClientProxy.java|195|203|Override|class|java.lang.Override
+      @|com\tjtofvesson\mcoverhaul\proxy\ClientProxy.java|217|221|init|method|com.tjtofvesson.mcoverhaul.proxy.CommonProxy|init|()V
+      @|com\tjtofvesson\mcoverhaul\proxy\ClientProxy.java|228|236|MCOItems|class|com.tjtofvesson.mcoverhaul.init.MCOItems
+      @|com\tjtofvesson\mcoverhaul\proxy\ClientProxy.java|237|252|registerRenders|method|com.tjtofvesson.mcoverhaul.init.MCOItems|registerRenders|()V
+      @|com\tjtofvesson\mcoverhaul\proxy\ClientProxy.java|258|267|MCOBlocks|class|com.tjtofvesson.mcoverhaul.init.MCOBlocks
+      @|com\tjtofvesson\mcoverhaul\proxy\ClientProxy.java|268|283|registerRenders|method|com.tjtofvesson.mcoverhaul.init.MCOBlocks|registerRenders|()V
+   Method End: init()V
+Class End  : com.tjtofvesson.mcoverhaul.proxy.ClientProxy
+endProcessing "com\tjtofvesson\mcoverhaul\proxy\ClientProxy.java"
+
+startProcessing "com\tjtofvesson\mcoverhaul\proxy\CommonProxy.java" md5: 82916d6ed8604237623faaaa8a70ea90
+Cache Hit!
+@|com\tjtofvesson\mcoverhaul\proxy\CommonProxy.java|8|40|com.tjtofvesson.mcoverhaul.proxy|package|com.tjtofvesson.mcoverhaul.proxy|(file)
+Class Start: com.tjtofvesson.mcoverhaul.proxy.CommonProxy
+   @|com\tjtofvesson\mcoverhaul\proxy\CommonProxy.java|60|71|CommonProxy|class|com.tjtofvesson.mcoverhaul.proxy.CommonProxy
+   Method Start: init()V
+      @|com\tjtofvesson\mcoverhaul\proxy\CommonProxy.java|89|93|init|method|com.tjtofvesson.mcoverhaul.proxy.CommonProxy|init|()V
+   Method End: init()V
+Class End  : com.tjtofvesson.mcoverhaul.proxy.CommonProxy
+endProcessing "com\tjtofvesson\mcoverhaul\proxy\CommonProxy.java"
+
+startProcessing "com\tjtofvesson\mcoverhaul\proxy\ServerProxy.java" md5: 63a82a32ba1d13e897927c8111ff15a9
+Cache Hit!
+@|com\tjtofvesson\mcoverhaul\proxy\ServerProxy.java|8|40|com.tjtofvesson.mcoverhaul.proxy|package|com.tjtofvesson.mcoverhaul.proxy|(file)
+Class Start: com.tjtofvesson.mcoverhaul.proxy.ServerProxy
+   @|com\tjtofvesson\mcoverhaul\proxy\ServerProxy.java|56|67|ServerProxy|class|com.tjtofvesson.mcoverhaul.proxy.ServerProxy
+   @|com\tjtofvesson\mcoverhaul\proxy\ServerProxy.java|79|90|CommonProxy|class|com.tjtofvesson.mcoverhaul.proxy.CommonProxy
+   Method Start: init()V
+      @|com\tjtofvesson\mcoverhaul\proxy\ServerProxy.java|95|103|Override|class|java.lang.Override
+      @|com\tjtofvesson\mcoverhaul\proxy\ServerProxy.java|117|121|init|method|com.tjtofvesson.mcoverhaul.proxy.CommonProxy|init|()V
+   Method End: init()V
+Class End  : com.tjtofvesson.mcoverhaul.proxy.ServerProxy
+endProcessing "com\tjtofvesson\mcoverhaul\proxy\ServerProxy.java"
+
+startProcessing "com\tjtofvesson\mcoverhaul\utils\ChatUtils.java" md5: 69c62c96ef56af9c694b68cdd0e64865
+Cache Hit!
+@|com\tjtofvesson\mcoverhaul\utils\ChatUtils.java|8|40|com.tjtofvesson.mcoverhaul.utils|package|com.tjtofvesson.mcoverhaul.utils|(file)
+Class Start: com.tjtofvesson.mcoverhaul.utils.ChatUtils
+   @|com\tjtofvesson\mcoverhaul\utils\ChatUtils.java|553|562|ChatUtils|class|com.tjtofvesson.mcoverhaul.utils.ChatUtils
+   @|com\tjtofvesson\mcoverhaul\utils\ChatUtils.java|591|602|DELETION_ID|field|com.tjtofvesson.mcoverhaul.utils.ChatUtils|DELETION_ID|
+   Method Start: sendNoSpamMessages(ILnet/minecraft/util/text/ITextComponent;)V
+      @|com\tjtofvesson\mcoverhaul\utils\ChatUtils.java|696|705|messageID|param|com.tjtofvesson.mcoverhaul.utils.ChatUtils|sendNoSpamMessages|(ILnet/minecraft/util/text/ITextComponent;)V|messageID|0
+      @|com\tjtofvesson\mcoverhaul\utils\ChatUtils.java|722|729|message|param|com.tjtofvesson.mcoverhaul.utils.ChatUtils|sendNoSpamMessages|(ILnet/minecraft/util/text/ITextComponent;)V|message|1
+      @|com\tjtofvesson\mcoverhaul\utils\ChatUtils.java|673|691|sendNoSpamMessages|method|com.tjtofvesson.mcoverhaul.utils.ChatUtils|sendNoSpamMessages|(ILnet/minecraft/util/text/ITextComponent;)V
+      @|com\tjtofvesson\mcoverhaul\utils\ChatUtils.java|707|721|ITextComponent|class|net.minecraft.util.text.ITextComponent
+      @|com\tjtofvesson\mcoverhaul\utils\ChatUtils.java|751|762|DELETION_ID|field|com.tjtofvesson.mcoverhaul.utils.ChatUtils|DELETION_ID
+      @|com\tjtofvesson\mcoverhaul\utils\ChatUtils.java|763|772|messageID|param|com.tjtofvesson.mcoverhaul.utils.ChatUtils|sendNoSpamMessages|(ILnet/minecraft/util/text/ITextComponent;)V|messageID|0
+      @|com\tjtofvesson\mcoverhaul\utils\ChatUtils.java|776|786|GuiNewChat|class|net.minecraft.client.gui.GuiNewChat
+      @|com\tjtofvesson\mcoverhaul\utils\ChatUtils.java|794|803|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\tjtofvesson\mcoverhaul\utils\ChatUtils.java|804|816|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\tjtofvesson\mcoverhaul\utils\ChatUtils.java|819|828|ingameGUI|field|net.minecraft.client.Minecraft|ingameGUI
+      @|com\tjtofvesson\mcoverhaul\utils\ChatUtils.java|829|839|getChatGUI|method|net.minecraft.client.gui.GuiIngame|getChatGUI|()Lnet/minecraft/client/gui/GuiNewChat;
+      @|com\tjtofvesson\mcoverhaul\utils\ChatUtils.java|850|886|printChatMessageWithOptionalDeletion|method|net.minecraft.client.gui.GuiNewChat|printChatMessageWithOptionalDeletion|(Lnet/minecraft/util/text/ITextComponent;I)V
+      @|com\tjtofvesson\mcoverhaul\utils\ChatUtils.java|887|894|message|param|com.tjtofvesson.mcoverhaul.utils.ChatUtils|sendNoSpamMessages|(ILnet/minecraft/util/text/ITextComponent;)V|message|1
+   Method End: sendNoSpamMessages(ILnet/minecraft/util/text/ITextComponent;)V
+Class End  : com.tjtofvesson.mcoverhaul.utils.ChatUtils
+endProcessing "com\tjtofvesson\mcoverhaul\utils\ChatUtils.java"
+
