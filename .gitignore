@@ -11,6 +11,12 @@ out
 *.ipr
 *.iws
 *.iml
+<<<<<<< HEAD
 .idea# other
+=======
+.idea
+
+# other
+>>>>>>> branch 'master' of https://github.com/GabrielTofvesson/MCOverhaul.git
 eclipse
 run
