@@ -10,9 +10,9 @@ import java.util.concurrent.atomic.AtomicReference;
 import javax.annotation.Nullable;
 
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.multiplayer.WorldClient;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.world.World;
+import net.minecraftforge.common.DimensionManager;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.TickEvent;
@@ -50,7 +50,7 @@ public class EventUtils {
 	{
 		if(previousWorldState!=(previousWorldState = w!=null))
 			for(IGenericCallback i : gListeners.values())
-				if(i instanceof IWorldCallback) ((IWorldCallback)i).onWorldEvent((WorldClient)w);
+				if(i instanceof IWorldCallback) ((IWorldCallback)i).onWorldEvent((World)w);
 	};
 	
 	
@@ -99,10 +99,12 @@ public class EventUtils {
 			for(int i=0; i<active.size(); ++i)
 				switch(active.get(i)){
 				case WORLD:
-					worldListener.run(Minecraft.getMinecraft().theWorld);
+					for(World w : DimensionManager.getWorlds())
+						worldListener.run(w);
 					break;
 				case PLAYER_SWING:
-					swingListener.run(Minecraft.getMinecraft().theWorld);
+					for(World w : DimensionManager.getWorlds())
+						swingListener.run(w);
 					break;
 				}
 	}
