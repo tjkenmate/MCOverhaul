@@ -5,38 +5,59 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ThreadLocalRandom;
+import java.util.concurrent.atomic.AtomicReference;
 
 import javax.annotation.Nullable;
 
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.multiplayer.WorldClient;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.world.World;
+import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.gameevent.TickEvent;
 
 public class EventUtils {
 
 	// Variable Initializations
-	protected static volatile boolean queueRun = false;
-	protected static volatile boolean previousWorldState = false; //true = World exists, false = World doesn't exist
+   //Security	Static Volatility Finality	Type							Name					Value
+	protected 	static volatile 			boolean 						queueRun = 				false;
+	protected 	static volatile 			boolean 						previousWorldState = 	false; //true = World exists, false = World doesn't exist
+	protected	static volatile				boolean							using = 				false;
+				static						boolean							isRegistered =			false;
 	
 	// Object Initializations
-	protected static volatile List<Listeners> active = new ArrayList<Listeners>();
-	protected static volatile Map<Integer, IGenericCallback> gListeners = new HashMap<Integer, IGenericCallback>();
-	private static final MinecraftRunnable swingListener = w->
+   //Security	Static Volatility Finality	Type							Name					Value
+	protected 	static volatile 			List<Listeners> 				active = 				new ArrayList<Listeners>();
+	protected 	static volatile 			Map<Integer, IGenericCallback> 	gListeners = 			new HashMap<Integer, IGenericCallback>();
+	protected	static volatile				List<EntityPlayer>				swungPlayers = 			new ArrayList<EntityPlayer>();
+	public		static						EventUtils						context =				new EventUtils();
+	private 	static 				final 	MinecraftRunnable 				swingListener = w->
 	{
 		if(w==null) return;
 		World world = (World) w;
-		List l;
-		if(world!=null && !gListeners.isEmpty() && !(l=(world.getEntities(EntityPlayer.class, p->p.isSwingInProgress))).isEmpty())
+		List l = null;
+		swungPlayers.removeIf(e->!e.isSwingInProgress);
+		if(!gListeners.isEmpty() && !(l=(world.getEntities(EntityPlayer.class, p->{
+				boolean b = p.isSwingInProgress && !swungPlayers.contains(p); if(b) swungPlayers.add(p); return b; //Tfw lambda executing instructions in an if-statement
+			}))).isEmpty()){
 			for(IGenericCallback i : gListeners.values())
 				if(i instanceof ISwingCallback) ((ISwingCallback)i).onSwing(l);
+		}
 	};
-	private static final MinecraftRunnable worldListener = w->
+   //Security	Static Volatility Finality	Type							Name					Value
+	private 	static 				final 	MinecraftRunnable 				worldListener = 		w->
 	{
-		if(previousWorldState!=(Minecraft.getMinecraft().theWorld!=null))
+		if(previousWorldState!=(previousWorldState = w!=null))
 			for(IGenericCallback i : gListeners.values())
-				if(i instanceof IWorldCallback) ((IWorldCallback)i).onWorldEvent(Minecraft.getMinecraft().theWorld);
+				if(i instanceof IWorldCallback) ((IWorldCallback)i).onWorldEvent((WorldClient)w);
 	};
 	
+	
+	
+	private EventUtils(){
+		if(!isRegistered) MinecraftForge.EVENT_BUS.register(this);
+	}
 	
 	// \/\/ Public Methods \/\/
 	
@@ -70,21 +91,20 @@ public class EventUtils {
 	
 	// Main listener queue methods
 	public static final void startListenerQueue(){
-		if(!queueRun)
-			new Thread(()->
-			{
-				while(queueRun)
-					if(!active.isEmpty())
-						for(Listeners l : active)
-							switch(l){
-							case WORLD:
-								worldListener.run(null);
-								break;
-							case PLAYER_SWING:
-								swingListener.run(Minecraft.getMinecraft().theWorld);
-								break;
-							}
-			}).start();
+		queueRun = true;
+	}
+	@SubscribeEvent
+	public void onWorldTick(TickEvent.WorldTickEvent event) {
+		if(queueRun && !active.isEmpty())
+			for(int i=0; i<active.size(); ++i)
+				switch(active.get(i)){
+				case WORLD:
+					worldListener.run(Minecraft.getMinecraft().theWorld);
+					break;
+				case PLAYER_SWING:
+					swingListener.run(Minecraft.getMinecraft().theWorld);
+					break;
+				}
 	}
 	public static final void stopListenerQueue(){ queueRun=false; }
 	
@@ -93,7 +113,7 @@ public class EventUtils {
 	// Other stuff
 	
 	// Runnable variant
-	private interface MinecraftRunnable{ public void run(@Nullable Object o); }
+	private interface MinecraftRunnable{ public default void run(){ run(null); } public void run(@Nullable Object o); }
 	
 	// Listener Options
 	public enum Listeners{
