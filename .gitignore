@@ -11,12 +11,12 @@ out
 *.ipr
 *.iws
 *.iml
+<<<<<<< HEAD
+.idea# other
+=======
 .idea
 
-# gradle
-build
-.gradle
-
 # other
+>>>>>>> branch 'master' of https://github.com/GabrielTofvesson/MCOverhaul.git
 eclipse
 run

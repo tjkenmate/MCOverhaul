@@ -2,14 +2,14 @@
 {
   "modid": "ttmco",
   "name": "Minecraft Overhaul",
-  "description": "A RPG Overhaul of various Minecraft Mechanics.",
-  "version": "${version}",
+  "description": "A mod for improving the Minecraft experience. :D",
+  "version": "0.2.1",
   "mcversion": "${mcversion}",
-  "url": "",
+  "url": "https://github.com/GabrielTofvesson/MCOverhaul",
   "updateUrl": "",
   "authorList": ["TjKenMate AKA Tjeltigre","Blynd3"],
   "credits": "Us, Forge, FML, MCP",
-  "logoFile": "",
+  "logoFile": "assets/ttmco/textures/blocks/PlayerPlate.png",
   "screenshots": [],
   "dependencies": []
 }

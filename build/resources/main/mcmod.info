@@ -1,0 +1,16 @@
+[
+{
+  "modid": "ttmco",
+  "name": "Minecraft Overhaul",
+  "description": "A mod for improving the Minecraft experience. :D",
+  "version": "0.2.1",
+  "mcversion": "1.10.2",
+  "url": "https://github.com/GabrielTofvesson/MCOverhaul",
+  "updateUrl": "",
+  "authorList": ["TjKenMate AKA Tjeltigre","Blynd3"],
+  "credits": "Us, Forge, FML, MCP",
+  "logoFile": "assets/ttmco/textures/blocks/PlayerPlate.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]
