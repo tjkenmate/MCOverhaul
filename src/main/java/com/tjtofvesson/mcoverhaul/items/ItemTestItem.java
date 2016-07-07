@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.List;
 
 import com.tjtofvesson.mcoverhaul.Reference;
-import com.tjtofvesson.mcoverhaul.utils.ChatUtils;
+import com.tjtofvesson.mcoverhaul.api.ChatUtils;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.FontRenderer;
