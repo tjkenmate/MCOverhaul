@@ -1,4 +1,4 @@
-package com.tjtofvesson.utils;
+package com.tjtofvesson.api;
 
 import io.netty.buffer.ByteBuf;
 import net.minecraft.client.Minecraft;
@@ -13,11 +13,11 @@ import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler;
 import net.minecraftforge.fml.common.network.simpleimpl.MessageContext;
 import com.tjtofvesson.network.MinecraftOverhaulChatPacketHandler;
-import com.tjtofvesson.utils.TextLocalizer;
+import com.tjtofvesson.api.TextLocalizer;
 
 public class ChatUtil
 {
-    private static final int DELETION_ID = 2525277;
+    private static final int DELETION_ID = 13395727;
     private static int lastAdded;
 
     private static void sendNoSpamMessages(IChatComponent[] messages)
